@@ -8,15 +8,9 @@ const Home = () => {
 			<div className='home-items-container'>
 				<div className='home-items-left-container'>
 					<div className='home-item-content'>
-						<Avatar
-							size='8'
-							src={avatarIcon}
-						/>
+						<Avatar size='8' src={avatarIcon} />
 						<div className='home-item-content-text'>Desafio Cidade Alta</div>
-						<a
-							className='home-item-content-button'
-							href='https://github.com/nicolas-suzuki/desafio-cidade-alta'
-						>
+						<a className='home-item-content-button' href='https://github.com/NicolasSuzuki/desafio-cidade-alta'>
 							<div className='home-item-content-button-text'>Repositório</div>
 						</a>
 					</div>
@@ -30,11 +24,7 @@ const Home = () => {
 					</div>
 					<div className='home-item-right-content'>
 						<Minigame />
-						<Avatar
-							style={{ marginTop: '20px' }}
-							size='8'
-							src={avatarIcon}
-						/>
+						<Avatar style={{ marginTop: '20px' }} size='8' src={avatarIcon} />
 					</div>
 				</div>
 			</div>
