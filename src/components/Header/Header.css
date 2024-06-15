@@ -1,0 +1,32 @@
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: #0e101a;
+	height: 90px;
+	text-transform: uppercase;
+}
+
+.header-items-container {
+	display: flex;
+	width: 100%;
+	margin: auto 30px;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.header-items-left-container {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.header-separator {
+	color: #262b41;
+}
+.header-logo {
+	width: 60px;
+	height: 60px;
+}

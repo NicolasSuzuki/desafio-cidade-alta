@@ -1,0 +1,91 @@
+.rt-BaseDialogOverlay::before {
+	backdrop-filter: blur(10px);
+}
+
+.minigame-item-content-button {
+	background-color: #ffc046;
+	width: 280px;
+	text-align: center;
+	padding: 15px 0;
+	border-radius: 15px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.minigame-item-content-modal-button {
+	background-color: #ffc046;
+	width: 280px;
+	text-align: center;
+	padding: 30px 0;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.minigame-item-content-input {
+	width: 50px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #2d324b;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 8px;
+	text-decoration: none;
+	border: 1px solid white;
+	margin: 5px;
+}
+
+.minigame-item-content-input-correct {
+	width: 50px;
+	font-size: 30px;
+	background-color: #ffc046;
+	text-align: center;
+	padding: 10px 1px;
+	border-radius: 8px;
+	text-decoration: none;
+	border: 0px;
+	margin: 5px;
+	color: #2d324b;
+	font-weight: 600;
+}
+
+.minigame-item-content-button-text {
+	font-size: 18px;
+	color: #000;
+}
+
+.minigame-item-content-button-text-white {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.minigame-dialog,
+.rt-BaseDialogContent {
+	border-radius: 8px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: #0e101a;
+}
+
+.minigame-dialog-detail {
+	left: calc(50% - 325px);
+	position: absolute;
+	width: 650px;
+	height: 300px;
+	top: calc(50% - 160px);
+	z-index: 2;
+}
+
+.minigame-progress-start .rt-ProgressIndicator {
+	width: 100%;
+	transition: width 0s;
+}
+
+.minigame-progress-end .rt-ProgressIndicator {
+	width: 0%;
+	transition: width 5s;
+}
